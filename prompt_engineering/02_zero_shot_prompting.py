@@ -10,11 +10,9 @@ ZERO_SHOT_SYSTEM_PROMPT="You are my personal math assistant, and strictly answer
 response = client.chat.completions.create(
     model='gpt-4o-mini',
     messages=[
-        {
-            "role": "system", "content": ZERO_SHOT_SYSTEM_PROMPT,
+        { "role": "system", "content": ZERO_SHOT_SYSTEM_PROMPT},
             # 'role': 'user', 'content':'Hey, what is sum of 3 and 4'
-              "role": "system", "content": "Hey, tell me a joke"
-        }
+        { "role": "system", "content": "Hey, tell me a joke"}
     ]
 )
 
