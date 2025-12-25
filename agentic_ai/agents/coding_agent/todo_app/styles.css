@@ -1,0 +1,19 @@
+body { font-family: Arial, sans-serif; }
+#todoInput { margin-right: 10px; }
+#addButton { cursor: pointer; }
+ul { list-style-type: none; padding: 0; }
+li { margin: 5px 0; }
+css
+body {
+    background-color: #800080;
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #9b59b6;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #8e44ad;
+}
