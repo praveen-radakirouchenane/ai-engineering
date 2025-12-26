@@ -17,3 +17,5 @@
 - Package to install ``pip install tiktoken``
 - command to generate requirements.txt ``pip freeze > requirements.txt``
 
+# To create new .venv using python 3.11 
+    /opt/homebrew/bin/python3.11 -m venv .venv-py311 && .venv-py311/bin/python -m pip install --upgrade pip setuptools wheel && .venv-py311/bin/python -m pip install -r requirements.txt
