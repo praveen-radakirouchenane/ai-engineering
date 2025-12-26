@@ -1,2 +1,5 @@
 .env
+.venv
+.venv-py311
+venv
 .idea
